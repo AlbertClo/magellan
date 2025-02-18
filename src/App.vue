@@ -188,7 +188,27 @@ import ShortcutIcon from "./components/ShortcutIcon.vue";
         </template>
       </ShortcutIcon>
     </div>
+
+    <div class="flex-row flex items-center justify-center gap-2">
+      <ShortcutIcon name="School (local)" href="http://localhost:8000/magic-link/validate/2PiX7UHhrQ">
+        <template #icon>
+          <img src="https://pub-0ba7663f83bf4e0fa2794be6289b11bd.r2.dev/logo_CryptoSchool-626x556.png" alt="Crypto School (Local)">
+        </template>
+      </ShortcutIcon>
+      <ShortcutIcon name="School (staging)" href="https://staging.school.cryptobanter.com/magic-link/validate/GLyzO4wpPB">
+        <template #icon>
+          <img src="https://pub-0ba7663f83bf4e0fa2794be6289b11bd.r2.dev/logo_CryptoSchool-626x556.png" alt="Crypto School (Local)">
+        </template>
+      </ShortcutIcon>
+      <ShortcutIcon name="School (prod)" href="https://school.cryptobanter.com/magic-link/validate/pFrAkUrCSK">
+        <template #icon>
+          <img src="https://pub-0ba7663f83bf4e0fa2794be6289b11bd.r2.dev/logo_CryptoSchool-626x556.png" alt="Crypto School (Local)">
+        </template>
+      </ShortcutIcon>
+    </div>
   </div>
+
+
 
 </template>
 
